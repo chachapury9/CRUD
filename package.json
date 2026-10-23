@@ -6,7 +6,7 @@
   "author": "",
   "type": "module",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel index.html",
     "server": "json-server --watch ./src/data.json --port 1234"
   },
   "devDependencies": {
