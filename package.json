@@ -1,0 +1,17 @@
+{
+  "name": "students",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "server": "json-server --watch ./src/data.json --port 1234"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.10",
+    "json-server": "^1.0.0-beta.15",
+    "parcel": "^2.16.4"
+  }
+}
